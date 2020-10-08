@@ -7,8 +7,10 @@
   ### Besoins matériels & API's
     - Oculus Quest + manettes
       On choisit l'Oculus Quest car l'utilisation est plus simple pour WebXR et A-Frame
+      
     - A-Frame
       On choisit A-Frame pour créer nos modèles 3D, cela permet de ne pas utiliser un framework lourd comme Unity
+      
     - WebXR
       On choisit WebXR pour l'afficher dans un navigateur
       
