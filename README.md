@@ -13,4 +13,6 @@
       
     - WebXR
       On choisit WebXR pour l'afficher dans un navigateur
-      
+    
+    - Host sur github
+      On va host la page web sur grâce au service host de github
