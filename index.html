@@ -6,10 +6,13 @@
   </head>
   <body>
     <a-scene cursor="rayOrigin: mouse">
+      <!-- Manettes -->
+      <a-entity hand-controls="left"></a-entity>
+      <a-entity hand-controls="right"></a-entity>
       <!-- Lumière -->
       <a-entity position="0 3 0" light="type: point; color: #ddf"></a-entity>
       <!-- Les cylindres -->
-      <a-cylinder src="img/drum.jpg" position="-1.20 0.50 -1" radius="0.5" rotation="20 90 0" height="0.2"
+      <a-cylinder id="drum1" src="img/drum.jpg" position="-1.20 0.50 -1" radius="0.5" rotation="20 90 0" height="0.2"
                   event-set__enter="_event: mousedown; color: #ff5959" 
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
       <a-cylinder src="img/drum.jpg" position="-0.4 1.1 -1.75" rotation="0 90 30" radius="0.4" height="0.2"
