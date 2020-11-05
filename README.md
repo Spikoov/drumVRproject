@@ -1,4 +1,5 @@
 # drumVRproject
+Un démo est disponible sur Spikoov.github.io
 ## Participants :
   Couderc Clément, Boix Victor, Marchioni Jérôme
 ## Sujet:
