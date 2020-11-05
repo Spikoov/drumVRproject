@@ -1,20 +1,30 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
   </head>
   <body>
     <a-scene>
+      <!--Assets-->
+      <a-assets>
+        <!--Images-->
+        <img id="sky" src="https://spikoov.github.io/drumVRproject/img/skybox.jpg">
+        <img id="drum" src="https://spikoov.github.io/drumVRproject/img/drum.jpg">
+        <img id="cymbal" src="https://spikoov.github.io/drumVRproject/img/cymbal.jpg">
+        <!--Audio-->
+      </a-assets>
       <!-- Lumière -->
       <a-entity position="0 3 0" light="type: point; color: #ddf"></a-entity>
       <!-- Les cylindres -->
-      <a-cylinder src="img/drum.jpg" position="-1.20 0.50 -1" radius="0.5" rotation="20 90 0" height="0.2"></a-cylinder>
-      <a-cylinder src="img/drum.jpg" position="-0.4 1.1 -1.75" rotation="0 90 30" radius="0.4" height="0.2"></a-cylinder>
-      <a-cylinder src="img/drum.jpg" position="0.5 1.1 -1.75" rotation="0 90 30" radius="0.4" height="0.2"></a-cylinder>
-      <a-cylinder src="img/drum.jpg" position="1.36 0.50 -1" radius="0.5" rotation="-30 90 0" height="0.2"></a-cylinder>
+      <a-cylinder src="#drum" position="-1.20 0.50 -1" radius="0.5" rotation="20 90 0" height="0.2"></a-cylinder>
+      <a-cylinder src="#drum" position="-0.4 1.1 -1.75" rotation="0 90 30" radius="0.4" height="0.2"></a-cylinder>
+      <a-cylinder src="#drum" position="0.5 1.1 -1.75" rotation="0 90 30" radius="0.4" height="0.2"></a-cylinder>
+      <a-cylinder src="#drum" position="1.36 0.50 -1" radius="0.5" rotation="-30 90 0" height="0.2"></a-cylinder>
       <!-- Les symballes -->
-      <a-cone src="img/cymbal.jpg" position="-1.4 1.2 -1.5" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-20 230 0"></a-cone>
-      <a-cone src="img/cymbal.jpg" position="-0.80 1.75 -1.5" geometry="primitive: cone; height: 0.15; radiusBottom: 0.4; " rotation="-40 210 20"></a-cone>
-      <a-cone src="img/cymbal.jpg" position="1 1.75 -1.5" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-40 140 -10"></a-cone>
+      <a-cone src="#cymbal" position="-1.4 1.2 -1.5" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-20 230 0"></a-cone>
+      <a-cone src="#cymbal" position="-0.80 1.75 -1.5" geometry="primitive: cone; height: 0.15; radiusBottom: 0.4; " rotation="-40 210 20"></a-cone>
+      <a-cone src="#cymbal" position="1 1.75 -1.5" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-40 140 -10"></a-cone>
       <!-- Les supports -->
       <a-cylinder position="1 1 -1.5" height="1.5" radius="0.02" color="#888"></a-cylinder>
       <a-cylinder position="-0.80 1 -1.5" height="1.5" radius="0.02" color="#888"></a-cylinder>
@@ -23,7 +33,7 @@
       <a-circle position="0 0 0" rotation="-90  0" radius="2.7" color="#403228"></a-circle>
       <!--<a-plane src="img/Batterie.jpg" position="2 2 -1" rotation="0 -45 0" color="#ddf"></a-plane> -->
       <!-- Le ciel -->
-      <a-sky src="img/skybox.jpg" rotation="0 180 0"></a-sky>
+      <a-sky color="grey" rotation="0 180 0"></a-sky>
     </a-scene>
   </body>
   <script src="script.js"></script>
