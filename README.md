@@ -1,5 +1,5 @@
 # Ma Batterie en VR
-v1.2.1
+v1.2.2
 
 Un démo est disponible sur [ce lien](https://spikoov.github.io/drumVRproject)
 ## Participants :
