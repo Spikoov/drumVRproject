@@ -1,3 +1,5 @@
+console.log("Hello from main script")
+
 AFRAME.registerComponent("snare", {
     init: function() {
       this.el.addEventListener("hitstart", (e) => {
