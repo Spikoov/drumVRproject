@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-
     const audioSnare = new Audio('https://raw.githubusercontent.com/Spikoov/drumVRproject/main/sound/snare.mp3');
     const audioHighTom =  new Audio('https://raw.githubusercontent.com/Spikoov/drumVRproject/main/sound/tom-c.mp3');
     const audioMidTom = new Audio('https://raw.githubusercontent.com/Spikoov/drumVRproject/main/sound/tom-b.mp3');
@@ -101,3 +100,7 @@ $(document).ready(function () {
     })
 
 })
+
+function test() {
+    console.log("test");
+}

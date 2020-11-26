@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Ma Batterie en VR</title>
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <script src="jquery-3.5.1.min.js"></script>
+    <script src="assets/jquery.min.js"></script>
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
     <script src="https://unpkg.com/aframe-aabb-collider-component@3.1.0/dist/aframe-aabb-collider-component.min.js"></script>
@@ -27,11 +27,21 @@
         <!--Title-->
         <a-text align="center" position="0 0.6 0" value="Drumless backing tracks" scale="0.5 0.5 1" opacity="0.9"></a-text> 
         <!--Content-->
-        <a-image src="#musicnote"></a-image>
-        <a-text align="center" value="Backing track #1 - Rock" scale="0.4 0.4 1" opacity="0.9"></a-text>
+        <a-image src="#musicnote" position="0 0 -0.1"></a-image>
+
+        <a-plane color="#001" opacity="0.9" position="0 0 0.1">
+          <a-text align="center" value="Backing track #1 - Rock" scale="0.4 0.4 1" opacity="0.9" visible="true"></a-text>
+        </a-plane>
+        <a-plane color="#001" opacity="0.9" position="0 0 0.1" visible="false">
+          <a-text align="center" value="Backing track #2 - Jazz" scale="0.4 0.4 1" opacity="0.9"></a-text>
+        </a-plane>
+        <a-plane color="#001" opacity="0.9" position="0 0 0.1" visible="false">
+          <a-text align="center" value="Backing track #3 - Blues" scale="0.4 0.4 1" opacity="0.9"></a-text>
+        </a-plane>
 
         <!--Up / Down Buttons-->
-        <a-plane color="#002" position="0.84 0.59 0.01" opacity="0.9" scale="0.3 0.3 1">
+        <a-plane color="#002" position="0.84 0.59 0.01" opacity="0.9" scale="0.3 0.3 1"
+                event-set__enter="_event: mousedown; test();">
           <a-text align="center" value="UP" opacity="0.9"></a-text>
         </a-plane>
 
