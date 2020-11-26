@@ -74,5 +74,3 @@ Un démo est disponible sur [ce lien](https://spikoov.github.io/drumVRproject)
 
     [Lien vers le dépôt de aabb-collider](https://github.com/supermedium/superframe/commit/c31f34b9f196195f3a383354e3547532b56f182a)
   
-  ### Pistes de fond sans batterie
-  
