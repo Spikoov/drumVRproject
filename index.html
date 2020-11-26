@@ -20,49 +20,49 @@
       <!-- Lumière -->
       <a-entity position="0 3 0" light="type: point; color: #ddf"></a-entity>
       <!-- Les cylindres -->
-      <a-cylinder src="#drum" position="-1.20 0.50 -1" radius="0.5" rotation="20 90 0" height="0.2"
+      <a-cylinder src="#drum" position="-1.20 0 -0.5" radius="0.5" rotation="20 90 0" height="0.2"
                   sound="src: url(sound/snare.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
-      <a-cylinder src="#drum" position="-0.4 1.1 -1.75" rotation="0 90 30" radius="0.4" height="0.2"
+      <a-cylinder src="#drum" position="-0.4 0.6 -1.25" rotation="0 90 30" radius="0.4" height="0.2"
                   sound="src: url(sound/tom-c.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
-      <a-cylinder src="#drum" position="0.5 1.1 -1.75" rotation="0 90 30" radius="0.4" height="0.2"
+      <a-cylinder src="#drum" position="0.5 0.6 -1.25" rotation="0 90 30" radius="0.4" height="0.2"
                   sound="src: url(sound/tom-b.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
-      <a-cylinder src="#drum" position="1.36 0.50 -1" radius="0.5" rotation="-30 90 0" height="0.2"
+      <a-cylinder src="#drum" position="1.36 0 -0.5" radius="0.5" rotation="-30 90 0" height="0.2"
                   sound="src: url(sound/tom-a.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
       <!-- Les symballes -->
-      <a-cone src="#cymbal" position="-1.4 1.2 -1.5" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-20 230 0"
+      <a-cone src="#cymbal" position="-1.4 0.7 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-20 230 0"
                   sound="src: url(sound/hi-hat.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cone>
-      <a-cone src="#cymbal" position="-0.80 1.75 -1.5" geometry="primitive: cone; height: 0.15; radiusBottom: 0.4; " rotation="-40 210 20"
+      <a-cone src="#cymbal" position="-0.80 1.25 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.4; " rotation="-40 210 20"
                   sound="src: url(sound/crash.mp3); on: click; poolSize:100"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cone>
-      <a-cone src="#cymbal" position="1 1.75 -1.5" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-40 140 -10"
+      <a-cone src="#cymbal" position="1 1.25 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-40 140 -10"
                   sound="src: url(sound/ride.mp3); on: click; poolSize:100"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cone>
       <!-- La déco -->
-      <a-cylinder position="-1.4 0.2 -1.5" height="1.85" radius="0.02" color="#888"></a-cylinder>
-      <a-cylinder position="-0.80 0.5 -1.5" height="2.3" radius="0.02" color="#888"></a-cylinder>
-      <a-cylinder position="1 0.5 -1.5" height="2.3" radius="0.02" color="#888"></a-cylinder>
-      <a-cylinder position="-1.20 -0.2 -1" height="1.2" radius="0.02" color="#888"></a-cylinder>
-      <a-cylinder position="1.36 -0.2 -1" height="1.2" radius="0.02" color="#888"></a-cylinder>
-      <a-cylinder position="0.1 0.90 -1.5" height="1.8" radius="0.02" rotation="90 90" color="#888"></a-cylinder>
-      <a-cylinder position="-1.10 0.50 -1.5" height="0.6" radius="0.02" rotation="90 90" color="#888"></a-cylinder>
-      <a-cylinder position="1.175 0 -1.25" height="0.6" radius="0.02" rotation="90 90 53" color="#888"></a-cylinder>
-      <a-cone position="-1.4 -0.6 -1.5" geometry="primitive: cone; height: 0.1; radiusBottom: 0.2;" color="#7b3d31"></a-cone>
-      <a-cone position="-0.80 -0.6 -1.5" geometry="primitive: cone; height: 0.1; radiusBottom: 0.2;" color="#7b3d31"></a-cone>
-      <a-cone position="1 -0.6 -1.5" geometry="primitive: cone; height: 0.1; radiusBottom: 0.2;" color="#7b3d31"></a-cone>
-      <a-cone position="-1.20 -0.6 -1" geometry="primitive: cone; height: 0.1; radiusBottom: 0.2;" color="#7b3d31"></a-cone>
-      <a-cone position="1.36 -0.6 -1" geometry="primitive: cone; height: 0.1; radiusBottom: 0.2;" color="#7b3d31"></a-cone>
+      <a-cylinder position="-1.4 -0.3 -1" height="1.85" radius="0.02" color="#888"></a-cylinder>
+      <a-cylinder position="-0.80 0 -1" height="2.3" radius="0.02" color="#888"></a-cylinder>
+      <a-cylinder position="1 0 -1" height="2.3" radius="0.02" color="#888"></a-cylinder>
+      <a-cylinder position="-1.20 -0.7 -0.5" height="1.2" radius="0.02" color="#888"></a-cylinder>
+      <a-cylinder position="1.36 -0.7 -0.5" height="1.2" radius="0.02" color="#888"></a-cylinder>
+      <a-cylinder position="0.1 0.40 -1" height="1.8" radius="0.02" rotation="90 90" color="#888"></a-cylinder>
+      <a-cylinder position="-1.10 0 -1" height="0.6" radius="0.02" rotation="90 90" color="#888"></a-cylinder>
+      <a-cylinder position="1.175 -0.5 -0.75" height="0.6" radius="0.02" rotation="90 90 53" color="#888"></a-cylinder>
+      <a-cone position="-1.4 -1.1 -1" geometry="primitive: cone; height: 0.1; radiusBottom: 0.2;" color="#7b3d31"></a-cone>
+      <a-cone position="-0.80 -1.1 -1" geometry="primitive: cone; height: 0.1; radiusBottom: 0.2;" color="#7b3d31"></a-cone>
+      <a-cone position="1 -1.1 -1" geometry="primitive: cone; height: 0.1; radiusBottom: 0.2;" color="#7b3d31"></a-cone>
+      <a-cone position="-1.20 -1.1 -0.5" geometry="primitive: cone; height: 0.1; radiusBottom: 0.2;" color="#7b3d31"></a-cone>
+      <a-cone position="1.36 -1.1 -0.5" geometry="primitive: cone; height: 0.1; radiusBottom: 0.2;" color="#7b3d31"></a-cone>
       <!-- Le sol -->
       <a-circle position="0 -100 0" rotation="-90  0" radius="170" color="#403228"></a-circle>
       <!-- Le ciel -->
