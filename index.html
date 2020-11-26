@@ -10,9 +10,9 @@
       <!--Assets-->
       <a-assets>
         <!--Images-->
-        <img id="sky" src="https://spikoov.github.io/drumVRproject/img/skybox.jpg">
-        <img id="drum" src="https://spikoov.github.io/drumVRproject/img/drum.jpg">
-        <img id="cymbal" src="https://spikoov.github.io/drumVRproject/img/cymbal.jpg">
+        <img id="sky" src="https://raw.githubusercontent.com/Spikoov/drumVRproject/main/img/skybox.jpg" crossorigin="">
+        <img id="drum" src="https://raw.githubusercontent.com/Spikoov/drumVRproject/main/img/drum.jpg" crossorigin="">
+        <img id="cymbal" src="https://raw.githubusercontent.com/Spikoov/drumVRproject/main/img/cymbal.jpg" crossorigin="">
       </a-assets>
       <!-- Mains -->
       <a-entity hand-controls="left"></a-entity>
@@ -66,7 +66,7 @@
       <!-- Le sol -->
       <a-circle position="0 -100 0" rotation="-90  0" radius="170" color="#403228"></a-circle>
       <!-- Le ciel -->
-      <a-sky color="grey" rotation="0 180 0"></a-sky>
+      <a-sky src="#sky" rotation="0 180 0"></a-sky>
     </a-scene>
   </body>
 </html>
