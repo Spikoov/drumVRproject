@@ -1,7 +1,7 @@
 # Ma Batterie en VR
 v0.1.0
 
-Un démo est disponible sur https://spikoov.github.io/drumVRproject
+Un démo est disponible sur [ce lien](https://spikoov.github.io/drumVRproject)
 ## Participants :
   Couderc Clément, Boix Victor, Marchioni Jérôme.
 ## Sujet:
@@ -31,11 +31,11 @@ Un démo est disponible sur https://spikoov.github.io/drumVRproject
     - Windows standalone AR
   
   ### Guide
-    - Installez Firefox Reality sur votre casque VR :
-        https://support.mozilla.org/fr/kb/installer-firefox-reality
+  Installez Firefox VR pour votre casque VR en cliquant [ici](https://support.mozilla.org/fr/kb/installer-firefox-reality)
 
-    - Rendez-vous sur https://spikoov.github.io/drumVRproject.
+  Rendez-vous sur ce [lien](https://spikoov.github.io/drumVRproject)
 
-    - Cliquez sur le bouton VR en bas à gauche
+  Assurez vous d'avoir votre casque prêt puis cliquez sur le bouton VR
+  ![VR button Screenshot](https://raw.githubusercontent.com/Spikoov/drumVRproject/main/img/VRbutton.png)
 
-    - Enjoy ! 
+  Enjoy !
