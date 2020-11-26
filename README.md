@@ -43,7 +43,7 @@ Un démo est disponible sur [ce lien](https://spikoov.github.io/drumVRproject)
   
   - Sinon 
 
-    - Verifiez que votre Casque accepte bien les sources inconnues (unknown sources)
+    - Vérifiez que votre Casque accepte bien les sources inconnues (unknown sources)
 
   - Rendez-vous sur ce [lien](https://spikoov.github.io/drumVRproject)
 
