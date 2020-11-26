@@ -14,12 +14,12 @@ $(document).ready(function () {
     AFRAME.registerComponent("snare", {
         init: function() {
             this.el.addEventListener("hitstart", (e) => {
-                $("snare").color = "#ff5959";
+                $("snare").attr("color", "#ff5959");
                 audioSnare.play();
             })
 
             this.el.addEventListener("hitend", (e) => {
-                $("snare").color = "#fff";
+                $("snare").attr("color", "#fff");
             })
         }
     })
@@ -27,12 +27,12 @@ $(document).ready(function () {
     AFRAME.registerComponent("high-tom", {
         init: function() {
             this.el.addEventListener("hitstart", (e) => {
-                $("high-tom").color = "#ff5959";
+                $("high-tom").attr("color", "#ff5959");
                 audioHighTom.play();
             })
 
             this.el.addEventListener("hitend", (e) => {
-                $("high-tom").color = "#fff";
+                $("high-tom").attr("color", "#fff");
             })
         }
     })
@@ -40,12 +40,12 @@ $(document).ready(function () {
     AFRAME.registerComponent("mid-tom", {
         init: function() {
             this.el.addEventListener("hitstart", (e) => {
-                $("mid-tom").color = "#ff5959";
+                $("mid-tom").attr("color", "#ff5959");
                 audioMidTom.play();
             })
 
             this.el.addEventListener("hitend", (e) => {
-                $("mid-tom").color = "#fff";
+                $("mid-tom").attr("color", "#fff");
             })
         }
     })
@@ -53,12 +53,12 @@ $(document).ready(function () {
     AFRAME.registerComponent("low-tom", {
         init: function() {
             this.el.addEventListener("hitstart", (e) => {
-                $("low-tom").color = "#ff5959";
+                $("low-tom").attr("color", "#ff5959");
                 audioLowTom.play();
             })
 
             this.el.addEventListener("hitend", (e) => {
-                $("low-tom").color = "#fff";
+                $("low-tom").attr("color", "#fff");
             })
         }
     })
@@ -66,12 +66,12 @@ $(document).ready(function () {
     AFRAME.registerComponent("hi-hat", {
         init: function() {
             this.el.addEventListener("hitstart", (e) => {
-                $("hi-hat").color = "#ff5959";
+                $("hi-hat").attr("color", "#ff5959");
                 audioHiHat.play();
             })
 
             this.el.addEventListener("hitend", (e) => {
-                $("hi-hat").color = "#fff";
+                $("hi-hat").attr("color", "#fff");
             })
         }
     })
@@ -79,12 +79,12 @@ $(document).ready(function () {
     AFRAME.registerComponent("crash", {
         init: function() {
             this.el.addEventListener("hitstart", (e) => {
-                $("crash").color = "#ff5959";
+                $("crash").attr("color", "#ff5959");
                 audioCrash.play();
             })
 
             this.el.addEventListener("hitend", (e) => {
-                $("crash").color = "#fff";
+                $("crash").attr("color", "#fff");
             })
         }
     })
@@ -92,12 +92,12 @@ $(document).ready(function () {
     AFRAME.registerComponent("ride", {
         init: function() {
             this.el.addEventListener("hitstart", (e) => {
-                $("ride").color = "#ff5959";
+                $("ride").attr("color", "#ff5959");
                 audioRide.play();
             })
 
             this.el.addEventListener("hitend", (e) => {
-                $("ride").color = "#fff";
+                $("ride").attr("color", "#fff");
             })
         }
     })
