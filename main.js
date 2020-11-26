@@ -1,12 +1,15 @@
+const audioSnare = new Audio('sound/snare.mp3');
+const audioHighTom =  new Audio('sound/tom-c.mp3');
+const audioMidTom = new Audio('sound/tom-b.mp3');
+const audioLowTom = new Audio('sound/tom-a.mp3');
+const audioHiHat = new Audio('sound/hi-hat.mp3');
+const audioCrash = new Audio('sound/crash.mp3');
+const audioRide = new Audio('sound/ride.mp3');
+
+
 $(document).ready(function () {
 
-    const audioSnare = new Audio('https://raw.githubusercontent.com/Spikoov/drumVRproject/main/sound/snare.mp3');
-    const audioHighTom =  new Audio('https://raw.githubusercontent.com/Spikoov/drumVRproject/main/sound/tom-c.mp3');
-    const audioMidTom = new Audio('https://raw.githubusercontent.com/Spikoov/drumVRproject/main/sound/tom-b.mp3');
-    const audioLowTom = new Audio('https://raw.githubusercontent.com/Spikoov/drumVRproject/main/sound/tom-a.mp3');
-    const audioHiHat = new Audio('https://raw.githubusercontent.com/Spikoov/drumVRproject/main/sound/hi-hat.mp3');
-    const audioCrash = new Audio('https://raw.githubusercontent.com/Spikoov/drumVRproject/main/sound/crash.mp3');
-    const audioRide = new Audio('https://raw.githubusercontent.com/Spikoov/drumVRproject/main/sound/ride.mp3');
+ 
 
     AFRAME.registerComponent("snare", {
         init: function() {
