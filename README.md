@@ -22,10 +22,10 @@ Un démo est disponible sur [ce lien](https://spikoov.github.io/drumVRproject)
 
 ## Comment l'utiliser ?
   ### Navigateurs supportés
-    - Mozilla Firefox 52+
-    - Chrome 79+
-    - Edge 79+
-    - Opera 66+
+    - Mozilla Firefox v52+
+    - Chrome v79+
+    - Edge v79+
+    - Opera v66+
 
   ### Casques VR et controlleurs supportés
     - HTC Vive
