@@ -32,29 +32,29 @@
                   sound="src: url(sound/snare.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
-      <a-cylinder id="high-tom" src="#drum" position="-0.4 0.6 -1.25" rotation="0 90 30" radius="0.4" height="0.2"
+      <a-cylinder high-tom aabb-collider="objects: #leftHand, #rightHand" id="high-tom" src="#drum" position="-0.4 0.6 -1.25" rotation="0 90 30" radius="0.4" height="0.2"
                   sound="src: url(sound/tom-c.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
-      <a-cylinder id="mid-tom" src="#drum" position="0.5 0.6 -1.25" rotation="0 90 30" radius="0.4" height="0.2"
+      <a-cylinder mid-tom aabb-collider="objects: #leftHand, #rightHand" id="mid-tom" src="#drum" position="0.5 0.6 -1.25" rotation="0 90 30" radius="0.4" height="0.2"
                   sound="src: url(sound/tom-b.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
-      <a-cylinder id="low-tom" src="#drum" position="1.36 0 -0.5" radius="0.5" rotation="-30 90 0" height="0.2"
+      <a-cylinder low-tom aabb-collider="objects: #leftHand, #rightHand" id="low-tom" src="#drum" position="1.36 0 -0.5" radius="0.5" rotation="-30 90 0" height="0.2"
                   sound="src: url(sound/tom-a.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
 
       <!-- Les symballes -->
-      <a-cone id="hi-hat" src="#cymbal" position="-1.4 0.7 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-20 230 0"
+      <a-cone hi-hat aabb-collider="objects: #leftHand, #rightHand" id="hi-hat" src="#cymbal" position="-1.4 0.7 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-20 230 0"
                   sound="src: url(sound/hi-hat.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cone>
-      <a-cone id="crash" src="#cymbal" position="-0.80 1.25 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.4; " rotation="-40 210 20"
+      <a-cone crash aabb-collider="objects: #leftHand, #rightHand" id="crash" src="#cymbal" position="-0.80 1.25 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.4; " rotation="-40 210 20"
                   sound="src: url(sound/crash.mp3); on: click; poolSize:100"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cone>
-      <a-cone id="ride" src="#cymbal" position="1 1.25 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-40 140 -10"
+      <a-cone ride aabb-collider="objects: #leftHand, #rightHand" id="ride" src="#cymbal" position="1 1.25 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-40 140 -10"
                   sound="src: url(sound/ride.mp3); on: click; poolSize:100"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cone>
