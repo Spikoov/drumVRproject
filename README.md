@@ -1,9 +1,13 @@
 # Ma Batterie en VR
 v1.2.2
 
-Un démo est disponible sur [ce lien](https://spikoov.github.io/drumVRproject)
+Un démo est disponible sur [YouTube](https://www.youtube.com/watch?v=okcgN-EFy9c) 
+(le son n'a pu être capturé suite à un problème lors de l'enregistrement)
+
+Vous pouvez jouer [en cliquant ici](https://spikoov.github.io/drumVRproject)
+
 ## Participants :
-  Couderc Clément (Rygasary), Boix Victor (JohnSmoothie), Marchioni Jérôme (Spikoov).
+  Couderc Clément [(Rygasary)](https://github.com/Rygasary), Boix Victor [(JohnSmoothie)](https://github.com/JohnSmoothie), Marchioni Jérôme [(Spikoov)](https://github.com/Spikoov).
 ## Sujet:
   Ce projet est une reproduction d'une batterie en VR. Il proposera un ensemble d'objets différent sur lesquels l'utilisateur peut venir tapper et ainsi faire de la musique.
 ## Choix techniques:
@@ -36,14 +40,13 @@ Un démo est disponible sur [ce lien](https://spikoov.github.io/drumVRproject)
     - Windows Mixed Reality
   
   ### Guide
-
-  - Si vous voulez utilisez le navigateur intégré Firefox Reality : 
+  - Si vous avez un casque Oculus Quest :     
 
     -  Installez Firefox Reality pour votre casque VR en cliquant [ici](https://support.mozilla.org/fr/kb/installer-firefox-reality)
   
   - Sinon 
 
-    - Vérifiez que votre Casque accepte bien les sources inconnues (unknown sources)
+    - Vérifiez que votre Casque accepte bien les [sources inconnues (anglais)](https://blog.mozvr.com/oculus-home-rift-cv1-webvr/#enablingunknownsources)
 
   - Rendez-vous sur ce [lien](https://spikoov.github.io/drumVRproject)
 
