@@ -11,9 +11,9 @@
       <!--Assets-->
       <a-assets>
         <!--Images-->
-        <img id="sky" src="https://spikoov.github.io/drumVRproject/img/skybox.jpg">
-        <img id="drum" src="https://spikoov.github.io/drumVRproject/img/drum.jpg">
-        <img id="cymbal" src="https://spikoov.github.io/drumVRproject/img/cymbal.jpg">
+        <img id="sky" src="https://raw.githubusercontent.com/Spikoov/drumVRproject/main/img/skybox.jpg" crossorigin="">
+        <img id="drum" src="https://raw.githubusercontent.com/Spikoov/drumVRproject/main/img/drum.jpg" crossorigin="">
+        <img id="cymbal" src="https://raw.githubusercontent.com/Spikoov/drumVRproject/main/img/cymbal.jpg" crossorigin="">
       </a-assets>
       <!-- Mains -->
       <a-entity oculus-touch-controls="left"></a-entity>
@@ -21,32 +21,32 @@
       <!-- Lumière -->
       <a-entity position="0 3 0" light="type: point; color: #ddf"></a-entity>
       <!-- Les cylindres -->
-      <a-cylinder src="#drum" position="-1.20 0 -0.5" radius="0.5" rotation="20 90 0" height="0.2"
+      <a-cylinder id="snare" src="#drum" position="-1.20 0 -0.5" radius="0.5" rotation="20 90 0" height="0.2"
                   sound="src: url(sound/snare.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
-      <a-cylinder src="#drum" position="-0.4 0.6 -1.25" rotation="0 90 30" radius="0.4" height="0.2"
+      <a-cylinder id="high-tom" src="#drum" position="-0.4 0.6 -1.25" rotation="0 90 30" radius="0.4" height="0.2"
                   sound="src: url(sound/tom-c.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
-      <a-cylinder src="#drum" position="0.5 0.6 -1.25" rotation="0 90 30" radius="0.4" height="0.2"
+      <a-cylinder id="mid-tom" src="#drum" position="0.5 0.6 -1.25" rotation="0 90 30" radius="0.4" height="0.2"
                   sound="src: url(sound/tom-b.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
-      <a-cylinder src="#drum" position="1.36 0 -0.5" radius="0.5" rotation="-30 90 0" height="0.2"
+      <a-cylinder id="low-tom" src="#drum" position="1.36 0 -0.5" radius="0.5" rotation="-30 90 0" height="0.2"
                   sound="src: url(sound/tom-a.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
       <!-- Les symballes -->
-      <a-cone src="#cymbal" position="-1.4 0.7 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-20 230 0"
+      <a-cone id="hi-hat" src="#cymbal" position="-1.4 0.7 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-20 230 0"
                   sound="src: url(sound/hi-hat.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cone>
-      <a-cone src="#cymbal" position="-0.80 1.25 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.4; " rotation="-40 210 20"
+      <a-cone id="crash" src="#cymbal" position="-0.80 1.25 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.4; " rotation="-40 210 20"
                   sound="src: url(sound/crash.mp3); on: click; poolSize:100"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cone>
-      <a-cone src="#cymbal" position="1 1.25 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-40 140 -10"
+      <a-cone id="ride" src="#cymbal" position="1 1.25 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-40 140 -10"
                   sound="src: url(sound/ride.mp3); on: click; poolSize:100"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cone>
@@ -67,7 +67,7 @@
       <!-- Le sol -->
       <a-circle position="0 -100 0" rotation="-90  0" radius="170" color="#403228"></a-circle>
       <!-- Le ciel -->
-      <a-sky color="grey" rotation="0 180 0"></a-sky>
+      <a-sky src="#sky" rotation="0 180 0"></a-sky>
     </a-scene>
   </body>
 </html>
