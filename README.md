@@ -21,7 +21,7 @@ Un démo est disponible sur [ce lien](https://spikoov.github.io/drumVRproject)
       On va host la page web sur grâce au service Github pages.
 
 ## Comment l'utiliser ?
-  ### Navigateur supportés
+  ### Navigateurs supportés
     - Mozilla Firefox avec Firefox Reality
 
   ### Casques VR et controlleurs supportés
@@ -31,11 +31,12 @@ Un démo est disponible sur [ce lien](https://spikoov.github.io/drumVRproject)
     - Windows standalone AR
   
   ### Guide
-  Installez Firefox VR pour votre casque VR en cliquant [ici](https://support.mozilla.org/fr/kb/installer-firefox-reality)
+  - Installez Firefox VR pour votre casque VR en cliquant [ici](https://support.mozilla.org/fr/kb/installer-firefox-reality)
 
-  Rendez-vous sur ce [lien](https://spikoov.github.io/drumVRproject)
+  - Rendez-vous sur ce [lien](https://spikoov.github.io/drumVRproject)
 
-  Assurez vous d'avoir votre casque prêt puis cliquez sur le bouton VR
-  ![VR button Screenshot](https://raw.githubusercontent.com/Spikoov/drumVRproject/main/img/VRbutton.png)
+  - Assurez vous d'avoir votre casque prêt puis cliquez sur le bouton VR
+  
+  - ![VR button Screenshot](https://raw.githubusercontent.com/Spikoov/drumVRproject/main/img/VRbutton.png)
 
-  Enjoy !
+  - Enjoy !
