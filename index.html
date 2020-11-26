@@ -12,7 +12,17 @@
   <body>
     <a-scene cursor="rayOrigin: mouse" raycaster>
       <a-entity camera look-controls position="0 1.6 0"></a-entity>
-      <a-text align="center" value="v1.0.1" position="0 2 -3"></a-text>
+      <a-text align="center" value="v1.0.1" position="0 0.5 -3"></a-text>
+      <a-plane position="0 2.1 -2" color="#001" width="2" height="1.5" opacity="0.9" visible="true">
+        <a-text align="center" position="0 0.6 0" value="Drumless backing tracks" scale="0.5 0.5 1 transparent="0.9"></a-text>
+        <a-plane color="#002" position="0.84 0.59 0.01" opacity="0.9" scale="0.3 0.3 1">
+          <a-text align="center" value="UP" opacity="0.9"></a-text>
+        </a-plane>
+
+        <a-plane color="#002" position="0.84 -0.59 0.01" opacity="0.9" scale="0.3 0.3 1">
+          <a-text align="center" value="DOWN" opacity="0.9"></a-text>
+        </a-plane>
+      </a-plane>
       <!--Assets-->
       <a-assets>
         <!--Images-->
@@ -46,7 +56,7 @@
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
 
-      <!-- Les symballes -->
+      <!-- Les cymballes -->
       <a-cone hi-hat aabb-collider="objects: #leftHand, #rightHand" id="hi-hat" src="#cymbal" position="-1.4 0.9 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-20 230 0"
                   sound="src: url(sound/hi-hat.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
