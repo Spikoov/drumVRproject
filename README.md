@@ -37,6 +37,6 @@ Un démo est disponible sur [ce lien](https://spikoov.github.io/drumVRproject)
 
   - Assurez vous d'avoir votre casque prêt puis cliquez sur le bouton VR
   
-  - ![VR button Screenshot](https://raw.githubusercontent.com/Spikoov/drumVRproject/main/img/VRbutton.png)
+    ![VR button Screenshot](https://raw.githubusercontent.com/Spikoov/drumVRproject/main/img/VRbutton.png)
 
   - Enjoy !
