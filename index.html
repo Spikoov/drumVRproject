@@ -25,7 +25,7 @@
       <a-entity position="0 3 0" light="type: point; color: #ddf"></a-entity>
       <!-- Les cylindres -->
         
-      <a-cylinder cylindre1 aabb-collider="objects: #leftHand" id="snare" src="#drum" position="-1.20 0 -0.5" radius="0.5" rotation="20 90 0" height="0.2"
+      <a-cylinder snare aabb-collider="objects: #leftHand" id="snare" src="#drum" position="-1.20 0 -0.5" radius="0.5" rotation="20 90 0" height="0.2"
                   sound="src: url(sound/snare.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
@@ -42,7 +42,7 @@
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
       <script>
-        AFRAME.registerComponent("cylindre1", {
+        AFRAME.registerComponent("snare", {
           init: function() {
             this.el.addEventListener("hitstart", (e) => {
               var audioCylindre1 = new Audio('https://raw.githubusercontent.com/Spikoov/drumVRproject/main/sound/snare.mp3')
