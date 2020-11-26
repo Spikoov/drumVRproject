@@ -5,6 +5,7 @@
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
     <script src="https://unpkg.com/aframe-aabb-collider-component@3.1.0/dist/aframe-aabb-collider-component.min.js"></script>
+    <script src="main.js"></script>
   </head>
   <body>
     <a-scene cursor="rayOrigin: mouse" raycaster>
@@ -41,17 +42,6 @@
                   sound="src: url(sound/tom-a.mp3); on: click; poolSize:10"
                   event-set__enter="_event: mousedown; color: #ff5959"
                   event-set__leave="_event: mouseup; color: #fff"></a-cylinder>
-      <script>
-        AFRAME.registerComponent("snare", {
-          init: function() {
-            this.el.addEventListener("hitstart", (e) => {
-              var audioCylindre1 = new Audio('https://raw.githubusercontent.com/Spikoov/drumVRproject/main/sound/snare.mp3')
-              audioCylindre1.play()
-              console.log("dans le listener")
-            })
-          }
-        })
-      </script>
 
       <!-- Les symballes -->
       <a-cone id="hi-hat" src="#cymbal" position="-1.4 0.7 -1" geometry="primitive: cone; height: 0.15; radiusBottom: 0.5; " rotation="-20 230 0"
