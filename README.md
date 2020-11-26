@@ -12,7 +12,8 @@ Un démo est disponible sur [ce lien](https://spikoov.github.io/drumVRproject)
       On choisit l'Oculus Quest car l'utilisation est plus simple pour WebXR et A-Frame.
       
     - A-Frame
-      On choisit A-Frame pour créer nos modèles 3D, cela permet de ne pas utiliser un framework lourd comme Unity.
+      On choisit A-Frame pour créer nos modèles 3D, 
+      cela permet de ne pas utiliser un framework lourd comme Unity.
       De plus, A-Frame étant de l'HTML, ça nous permet de l'afficher dans un navigateur
       
     - WebXR
@@ -42,7 +43,7 @@ Un démo est disponible sur [ce lien](https://spikoov.github.io/drumVRproject)
   
   - Sinon 
 
-    - Verifiez que votre Casque accepte bien les sources inconnues (unknown sources)
+    - Vérifiez que votre Casque accepte bien les sources inconnues (unknown sources)
 
   - Rendez-vous sur ce [lien](https://spikoov.github.io/drumVRproject)
 
