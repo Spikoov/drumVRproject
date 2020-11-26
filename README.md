@@ -22,16 +22,22 @@ Un démo est disponible sur [ce lien](https://spikoov.github.io/drumVRproject)
 
 ## Comment l'utiliser ?
   ### Navigateurs supportés
-    - Mozilla Firefox avec Firefox Reality
+    - Mozilla Firefox 52+
+    - Chrome 79+
+    - Edge 79+
+    - Opera 66+
 
   ### Casques VR et controlleurs supportés
-    - Oculus Go
+    - HTC Vive
     - Oculus Quest
-    - HTC Viveport
-    - Windows standalone AR
+    - Oculus Rift
+    - Windows Mixed Reality
   
   ### Guide
-  - Installez Firefox VR pour votre casque VR en cliquant [ici](https://support.mozilla.org/fr/kb/installer-firefox-reality)
+
+  - Si vous utilisez Firefox : 
+
+    -  Installez Firefox VR pour votre casque VR en cliquant [ici](https://support.mozilla.org/fr/kb/installer-firefox-reality)
 
   - Rendez-vous sur ce [lien](https://spikoov.github.io/drumVRproject)
 
